@@ -65,6 +65,8 @@ class Library(object):
 
     def _load(self):
         library_path = find_library(self.name)
+        print("##",self.name, library_path,"##")
+        library_path="/Applications/PicoLog_6.app/Contents/Resources/libusbtc08.dylib"
 
         if library_path is None:
             env_var_name = "PATH" if sys.platform == 'win32' else "LD_LIBRARY_PATH"
