@@ -15,7 +15,7 @@ from time import sleep
 import time
 import datetime
 
-from pylab import *
+#from pylab import *
 
 filename = sys.argv[1];
 
@@ -80,13 +80,13 @@ while True:
 # close unit
 #elapsed_time = time.time() - start
     print(temps[0],temps[1],temps[2],temps[3],temps[4],temps[5],temps[6],temps[7])
-    x=range(0, 10, 1)
-    y.insert(0, temps[0])
-    y.pop(10)
-    clf()
-    ylim(0, 1000)
-    plot(x, y)
-    pause(0.05)
+#    x=range(0, 10, 1)
+#    y.insert(0, temps[1])
+#    y.pop(10)
+#    clf()
+#    ylim(0, 1000)
+#    plot(x, y)
+#    pause(0.05)
   
   except  KeyboardInterrupt:
     status["close_unit"] = tc08.usb_tc08_close_unit(chandle)
