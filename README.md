@@ -3,7 +3,7 @@
 https://github.com/picotech/picosdk-python-wrappers
 
 
-library.py is located in /usr/local/lib/python3.8/site-packages/picosdk
+library.py is located in /Users/chibaf/.local/lib/python3.8/site-packages/picosdk
 
 SingleMode5.py: /Users/chibaf/picosdk-python-wrappers-master/usbtc08Examples
 
